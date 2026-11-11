@@ -1,0 +1,19 @@
+dataset,scenario,model,accuracy,f1,recall,auc
+Math,A: background only,DecisionTree,0.684 ± 0.04,0.401 ± 0.081,0.327 ± 0.088,0.572 ± 0.069
+Math,A: background only,LogReg,0.689 ± 0.044,0.43 ± 0.097,0.363 ± 0.1,0.675 ± 0.05
+Math,A: background only,RandomForest,0.694 ± 0.041,0.34 ± 0.1,0.244 ± 0.081,0.683 ± 0.056
+Math,B: + G1,DecisionTree,0.809 ± 0.04,0.694 ± 0.068,0.665 ± 0.1,0.868 ± 0.036
+Math,B: + G1,LogReg,0.835 ± 0.04,0.744 ± 0.068,0.733 ± 0.093,0.923 ± 0.026
+Math,B: + G1,RandomForest,0.825 ± 0.037,0.697 ± 0.081,0.622 ± 0.106,0.905 ± 0.027
+Math,C: + G1 and G2,DecisionTree,0.876 ± 0.038,0.81 ± 0.065,0.815 ± 0.103,0.91 ± 0.037
+Math,C: + G1 and G2,LogReg,0.919 ± 0.033,0.876 ± 0.053,0.866 ± 0.071,0.976 ± 0.013
+Math,C: + G1 and G2,RandomForest,0.904 ± 0.032,0.855 ± 0.05,0.862 ± 0.072,0.971 ± 0.013
+Portuguese,A: background only,DecisionTree,0.831 ± 0.023,0.37 ± 0.108,0.338 ± 0.137,0.732 ± 0.081
+Portuguese,A: background only,LogReg,0.848 ± 0.016,0.363 ± 0.087,0.288 ± 0.088,0.796 ± 0.047
+Portuguese,A: background only,RandomForest,0.848 ± 0.014,0.201 ± 0.105,0.131 ± 0.079,0.837 ± 0.038
+Portuguese,B: + G1,DecisionTree,0.882 ± 0.026,0.593 ± 0.109,0.578 ± 0.153,0.851 ± 0.063
+Portuguese,B: + G1,LogReg,0.892 ± 0.022,0.617 ± 0.072,0.57 ± 0.089,0.93 ± 0.021
+Portuguese,B: + G1,RandomForest,0.902 ± 0.016,0.596 ± 0.085,0.48 ± 0.099,0.934 ± 0.025
+Portuguese,C: + G1 and G2,DecisionTree,0.912 ± 0.02,0.7 ± 0.075,0.677 ± 0.117,0.873 ± 0.052
+Portuguese,C: + G1 and G2,LogReg,0.925 ± 0.02,0.74 ± 0.073,0.705 ± 0.111,0.957 ± 0.019
+Portuguese,C: + G1 and G2,RandomForest,0.928 ± 0.019,0.725 ± 0.086,0.636 ± 0.12,0.967 ± 0.013

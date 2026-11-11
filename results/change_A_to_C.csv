@@ -1,0 +1,7 @@
+dataset,model,accuracy,f1,recall,auc
+Math,DecisionTree,0.1922,0.409,0.4877,0.338
+Math,LogReg,0.2301,0.4457,0.5031,0.3016
+Math,RandomForest,0.2099,0.5142,0.6177,0.2882
+Portuguese,DecisionTree,0.0809,0.3303,0.339,0.1407
+Portuguese,LogReg,0.0767,0.3768,0.417,0.1606
+Portuguese,RandomForest,0.0801,0.524,0.505,0.1298
